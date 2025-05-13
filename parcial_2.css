@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'open sans';
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    background-color: #ecf6ff;
+}
+header {background-color:rgb(244, 236, 247); 
+    color: rgb(0, 0, 0); 
+    padding: 1em;
+    text-align: center;
+}
+nav{
+    background-color: rgb(232, 218, 239); 
+    padding: 1em;
+    text-align: center;
+}
+nav a {margin-right: 10px; display: inline-block; 
+    color: #000000; 
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+main{
+    background-color: rgb(245, 238, 248); 
+    padding: 20px;
+}
+section#Inicio{
+    background-color: rgb(255, 255, 255); 
+    padding: 1em;
+    text-align: center;
+    color: #000000;
+}
+article.Articulo{
+    background-color: rgb(187, 143, 206); 
+    padding: 1em;
+    text-align: center;
+}
+.my_element{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; 
+    animation-duration: 2s; 
+}
