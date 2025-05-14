@@ -14,9 +14,6 @@
     <title>Rally Competition</title>
     <!--
     <style>
-        article { background-color: rgb(187, 143, 206); padding: 1em; }
-        table { width: 100%; border-collapse: collapse; background-color: rgb(187, 143, 206); }
-        th, td { border: 1px solid rgb(142, 68, 173); padding: 8px; text-align: left; }
         footer { background-color: rgb(125, 60, 152 ); text-align: center; padding: 1em; font-size: 0.9em; }
         iframe, img { max-width: 100%; }
     </style>
@@ -47,29 +44,29 @@
 
         <h3>Autos preparados para todo</h3>
         <p>Los autos de rally están diseñados para resistir golpes, saltos y terrenos irregulares. Cuentan con tracción total, suspensiones reforzadas y tecnología de navegación de última generación.</p>
-        <ul>
+        <ul class="Articulo">
             <li class="Articulo">Tracción integral para todo tipo de terreno. &lt;Tierra&gt;, &lt;Asfalto&gt;, &lt;Grava&gt;, &lt;Nieve&gt;, &lt;Barro&gt;, &lt;Arena&gt;.</li>
             <li class="Articulo">Refuerzos en chasis y suspensión.</li>
             <li class="Articulo">Equipamiento de seguridad de alto nivel.</li>
         </ul>
 
     <h3>El trabajo en equipo (lista ordenada)</h3>
-    <ol>
-        <li><strong>Preparación previa:</strong> El piloto y el copiloto estudian el recorrido, preparan las notas y sincronizan sus tiempos antes de la carrera.</li>
-        <li><strong>Comunicación efectiva:</strong> Durante la competencia, el copiloto da las indicaciones precisas a tiempo, y el piloto responde sin dudar.</li>
-        <li><strong>Confianza mutua:</strong> Ambos deben confiar plenamente el uno en el otro; cualquier error puede poner en riesgo el rendimiento o la seguridad.</li>
-        <li><strong>Adaptación constante:</strong> El equipo se adapta en tiempo real a las condiciones del terreno, clima y problemas mecánicos.</li>
-         <li><strong>Análisis posterior:</strong> Al terminar la etapa, revisan errores, aciertos y ajustan estrategias para las siguientes etapas.</li>
+    <ol class="Articulo">
+        <li class="Articulo"><strong>Preparación previa:</strong> El piloto y el copiloto estudian el recorrido, preparan las notas y sincronizan sus tiempos antes de la carrera.</li>
+        <li class="Articulo"><strong>Comunicación efectiva:</strong> Durante la competencia, el copiloto da las indicaciones precisas a tiempo, y el piloto responde sin dudar.</li>
+        <li class="Articulo"><strong>Confianza mutua:</strong> Ambos deben confiar plenamente el uno en el otro; cualquier error puede poner en riesgo el rendimiento o la seguridad.</li>
+        <li class="Articulo"><strong>Adaptación constante:</strong> El equipo se adapta en tiempo real a las condiciones del terreno, clima y problemas mecánicos.</li>
+        <li class="Articulo"><strong>Análisis posterior:</strong> Al terminar la etapa, revisan errores, aciertos y ajustan estrategias para las siguientes etapas.</li>
     </ol>
 
-    <h3>Video recomendado:</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yHCravpCXTU?si=W9mSmHcSBwtBMGFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe>
+    <h3 class="video">Video recomendado:</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yHCravpCXTU?si=W9mSmHcSBwtBMGFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe></iframe>
 </article>
 
 <section class="mapa">
-    <h3>Ubicación de la pista mas peligrosa del Rally: Col de Turini – Rally de Montecarlo (Francia)</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22968.903223544025!2d7.370497392611319!3d43.97771464962948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdbcfc5c8c471b%3A0x207500fd46066661!2sCol%20de%20Turini!5e0!3m2!1ses!2sar!4v1746760174456!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
-    <p>Redacción: RALLY COMPETITION | 10 de mayo de 2025</p>
+    <h3 id="mapa">Ubicación de la pista mas peligrosa del Rally: Col de Turini – Rally de Montecarlo (Francia)</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22968.903223544025!2d7.370497392611319!3d43.97771464962948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdbcfc5c8c471b%3A0x207500fd46066661!2sCol%20de%20Turini!5e0!3m2!1ses!2sar!4v1746760174456!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe></iframe>
+    <p id="pie">Redacción: RALLY COMPETITION | 10 de mayo de 2025</p>
 </section>
 <section id="Comparativa" class="comparativa">
     <h3>Comparativa de Rally con otras disciplinas automovilisticas</h3>
@@ -104,25 +101,24 @@
 <section id="Formulario" class="formulario">
     <h3>Participá en nuestra encuesta.</h3>
     <form>
-        <fieldset>
-        <legend>¿Qué es lo que más te gusta del rally?</legend>
-        <input type="radio" name="favorito" value="velocidad">La velocidad y la adrenalina<br>
-        <input type="radio" name="favorito" value="paisajes">Los paisajes extremos y desafiantes<br>
-        <input type="radio" name="favorito" value="equipo">El trabajo en equipo entre piloto y copiloto<br>
-    </fieldset>
+        <fieldset class="gustos">
+            <legend>¿Qué es lo que más te gusta del rally?</legend>
+            <label><input type="radio" name="favorito" value="velocidad" class="gustos"> La velocidad y la adrenalina</label>
+            <label><input type="radio" name="favorito" value="paisajes" class="gustos"> Los paisajes extremos y desafiantes</label>
+            <label><input type="radio" name="favorito" value="equipo" class="gustos"> El trabajo en equipo entre piloto y copiloto</label>
+        </fieldset>
 
-    <fieldset>
-        <legend>¿Cuáles son tus autos favoritos?</legend>
-
-        <input type="checkbox" name="tec" value="Toyota GR Yaris">Toyota GR Yaris<br>
-        <input type="checkbox" name="tec" value="Hyundai i20 N">Hyundai i20 N<br>
-        <input type="checkbox" name="tec" value="Ford Puma">Ford Puma<br>
-        <input type="checkbox" name="tec" value="Subaru Impreza WRX">Subaru Impreza WRX<br>
-        <input type="checkbox" name="tec" value="Mitsubishi Lancer Evolution">Mitsubishi Lancer Evolution<br>
-        <input type="checkbox" name="tec" value="Citroën C3 WRC">Citroën C3 WRC<br>
-        <input type="checkbox" name="tec" value="MINI John Cooper Works">MINI John Cooper Works<br>
-        <input type="checkbox" name="tec" value="Audi RS Q e-tron">Audi RS Q e-tron<br>
-    </fieldset>
+        <fieldset class="gustos">
+            <legend>¿Cuáles son tus autos favoritos?</legend>
+            <label><input type="checkbox" name="tec" value="Toyota GR Yaris"> Toyota GR Yaris</label>
+            <label><input type="checkbox" name="tec" value="Hyundai i20 N"> Hyundai i20 N</label>
+            <label><input type="checkbox" name="tec" value="Ford Puma"> Ford Puma</label>
+            <label><input type="checkbox" name="tec" value="Subaru Impreza WRX"> Subaru Impreza WRX</label>
+            <label><input type="checkbox" name="tec" value="Mitsubishi Lancer Evolution"> Mitsubishi Lancer Evolution</label>
+            <label><input type="checkbox" name="tec" value="Citroën C3 WRC"> Citroën C3 WRC</label>
+            <label><input type="checkbox" name="tec" value="MINI John Cooper Works"> MINI John Cooper Works</label>
+            <label><input type="checkbox" name="tec" value="Audi RS Q e-tron"> Audi RS Q e-tron</label>
+        </fieldset>
         <p><strong>Seleccioná tu nivel de conocimiento sobre el Rally:</strong></p>
         <select name="nivel">
             <option value="principiante">Principiante</option>
