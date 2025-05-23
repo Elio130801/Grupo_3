@@ -1,0 +1,120 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+body {
+    background: linear-gradient(to right, #d9f597, #d9f597);
+}
+
+/* Formulario */
+form {
+    background-color: #fafa7aed;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Etiquetas */
+label {
+     display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+label {
+    font-weight: 600;
+    color: #200404;
+    margin-bottom: 5px;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"], 
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #de8686;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Botón de registro */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #21eb1a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+
+
+}    
+ 
+button[type="submit"]:hover {
+    background-color: #43a047;
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+/* Diseño en filas (dos campos uno al lado del otro) */
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.field {
+    flex: 1;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #191a19;
+  font-weight: bold;
+
+  /* Cuadro */
+  border: 2px solid #130e0e;
+  padding: 10px 25px;
+  border-radius: 25px;
+  display: inline-block;
+
+
+
+
+  /* Sombra suave */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* Espaciado general */
+  margin-top: 10px;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+    outline: none;
+    transition: all 0.3s ease;
+}
